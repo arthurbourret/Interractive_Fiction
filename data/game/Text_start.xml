@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Text>
+	<title>The grid</title>
+	<content>
+		<paragraphe>
+			<line>You are trapped in an unknown place</line>
+			<line>It seems to be really a bright place and you can hear a voice whisper something</line>
+			<line>The voice starts to speaks louder and you can hear :</line>
+			<line> "Welcome to the grid</line>
+			<line> A digital place where electric component are fully alive</line>
+			<line> Your task is to escape this place"</line>
+			<line>You have no idea what is happening when suddenly a digital watch blink on your wrist</line>
+			<line>It says</line>
+		</paragraphe>
+		<enquiry>
+			<line>Show inventory</line>
+			<commande>inv</commande>
+		</enquiry>
+		<enquiry>
+			<line>Ask for command</line>
+			<commande>help</commande>
+		</enquiry>
+		<enquiry>
+			<line>Try to escape again</line>
+			<commande>restart</commande>
+		</enquiry>
+		<enquiry>
+			<line>Kill yourself</line>
+			<commande>exit</commande>
+		</enquiry>
+	</content>
+</Text>

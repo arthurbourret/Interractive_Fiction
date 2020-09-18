@@ -1,0 +1,102 @@
+// text on screen
+
+.title {
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+	-fx-underline: true;
+}
+
+.command {
+	-fx-font-weight: bold;
+	-fx-fill: #0048BA;
+}
+
+.command:hover {
+	-fx-font-style: italic;
+}
+
+.input {
+ 	-fx-font-style: italic;
+ 	-fx-fill: grey;
+}
+
+.error {
+	-fx-fill: #7a0000;
+}
+
+
+
+// Button and ScrollPane
+
+.scroll-pane, .scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.border-pane {
+	-fx-background-color: blue;
+}
+
+.button {
+}
+
+.button:hover {
+}
+
+
+
+// HUD (information)
+
+.info {
+	-fx-background-radius: 5;
+	-fx-background-color: #00000025;
+}
+
+.name {
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+}
+
+.weapon {
+}
+
+// progress bar
+.progress-bar {
+	-fx-text-box-border: grey;
+	-fx-control-inner-background: grey;
+}
+
+.hp {
+}
+
+.hp-high {
+	-fx-accent: #33cc33;
+}
+
+.hp-medium {
+	-fx-accent: orange;
+}
+
+.hp-low {
+	-fx-accent: red;
+}
+
+.mp {
+	-fx-accent: mediumorchid;
+}
+
+// stats
+.stat {
+	-fx-font-weight: bold;
+}
+
+.att {
+	-fx-fill: #ff2b2b;
+}
+
+.def {
+	-fx-fill: #4DA6FF;
+}
+
+.speed {
+	-fx-fill: #24ab2d;
+}

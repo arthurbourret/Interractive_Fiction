@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game position="start">
+	<player name="Player" hp="100">
+		<stat hp="100" mp="5" att="3" speed="9" def="6" />
+		<weapon name="Dagger" damage="3" />
+		<potion heal="20" />
+		<potion heal="40" />
+		<potion heal="40" />
+		<key level="1" />
+	</player>
+	<generation column="3" line="3" type="1">
+		<room id="start" west="12" >
+			<description>It's the room where you appeared</description>
+		</room>
+		<room id="00">
+			<description>It's an empty room in here</description>
+		</room>
+		<room id="end" south="01" >
+			<description>This is the last room |There seems to be an escape to the real world</description>
+		</room>
+		<room id="00" />
+		<room id="01" south="11">
+			<description>You enter in a basic room</description>
+			<event>
+				<battle escape="8">
+					<description>A strange C code look at you with disdain</description>
+					<enemy name="C code">
+						<description>use maloc</description>
+						<stat att="5" hp="80" speed="27" def="4" />
+					</enemy>
+				</battle>
+			</event>
+		</room>
+		<room id="02">
+			<description>You walk in a bright room with button clicking and lighting randomly</description>
+			<event>
+				<shortcut room="00">
+					<description>There seems to be a lot of data of a database coming from a wall |You try to fit inside and it works</description>
+				</shortcut>
+				<trap activate="2" disarm="5" damage="16">
+					<description>There is a corrupted file close to you it could corrupt you |You could fix it or maybe delete it</description>
+				</trap>
+			</event>
+		</room>
+		<room id="10" north="00" south="20">
+			<description>The room you entered is dark but light is coming from an Internet cable</description>
+			<event>
+				<battle escape="7">
+					<description>A method of type int is glaring at you with a menacing aura</description>
+					<enemy name="int Method">
+						<description>return -1</description>
+						<stat att="2" hp="100" speed="16" def="4" />
+						<weapon damage="2" name="return axe">
+							<description>return the attack</description>
+						</weapon>
+					</enemy>
+				</battle>
+			</event>
+		</room>
+		<room id="11" west="10">
+			<description>You're in a room full of data</description>
+			<event>
+				<shortcut room="22">
+					<description>The room hide a .exe that seems to have methods to bring you somewhere else</description>
+				</shortcut>
+				<chest level="2">
+					<description>An object of type Chest is floating and you see items in it</description>
+					<potion heal="100" />
+					<weapon name="Laser" damage="4">
+						<description>cut enemy's source code</description>
+					</weapon>
+				</chest>
+			</event>
+		</room>
+		<room id="12" north="02">
+			<description>You walk in a bright room with button clicking and lighting randomly</description>
+			<event>
+				<chest level="0">
+					<description>A neon colored chest is shining like its important</description>
+					<potion heal="60" />
+					<key level="2" />
+					<weapon name="Operand" damage="2">
+						<description>divide the enemy</description>
+					</weapon>
+					<weapon name="Cast" damage="3">
+						<description>cast enemy = (Dead) enemy</description>
+					</weapon>
+				</chest>
+			</event>
+		</room>
+		<room id="20" east="21">
+			<description>You're in a room full of data</description>
+			<event>
+				<trap activate="7" disarm="2" damage="30">
+					<description>An object of null value try to point at you |It could result in a nullPointerException</description>
+				</trap>
+				<chest level="1">
+					<description>There is a quantum chest</description>
+					<key level="3" />
+				</chest>
+			</event>
+		</room>
+		<room id="21" east="22" />
+		<room id="22" north="12">
+			<description>The room you entered is dark but light is coming from an Internet cable</description>
+			<event>
+				<battle escape="1">
+					<description>A python program is searching something |It looks at you're program's ';' with a big smile. |It seems to want to take it from you</description>
+					<enemy name="Python">
+						<description>end function</description>
+						<stat att="4" hp="80" speed="7" def="2" />
+					</enemy>
+				</battle>
+			</event>
+		</room>
+	</generation>
+</game>

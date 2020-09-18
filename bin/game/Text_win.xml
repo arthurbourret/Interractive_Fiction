@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Text>
+	<title>You won</title>
+	<content>
+		<paragraphe>
+			<line>Incredible you won</line>
+			<line>There is nothing for you to do anymore</line>
+			<line>But you can still wonder around</line>
+			<line>You should try the following commands</line>
+		</paragraphe>
+		<enquiry>
+			<line>Try to escape again</line>
+			<commande>restart</commande>
+		</enquiry>
+		<enquiry>
+			<line>Kill yourself</line>
+			<commande>exit</commande>
+		</enquiry>
+	</content>
+</Text>

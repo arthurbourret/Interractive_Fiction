@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Text>
+	<title>You lost</title>
+	<content>
+		<paragraphe>
+			<line>You are dead</line>
+			<line>Dead people can't move so you should probably try one of the
+				following command</line>
+		</paragraphe>
+		<enquiry>
+			<line>Try to escape again</line>
+			<commande>restart</commande>
+		</enquiry>
+		<enquiry>
+			<line>Kill yourself</line>
+			<commande>exit</commande>
+		</enquiry>
+	</content>
+</Text>
